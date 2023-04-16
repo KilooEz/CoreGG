@@ -1,5 +1,6 @@
 -- Game Chooser
 function GameChooserMain()
+    gg.toast("Test")
     gg.prompt(
         {'ask any', 'ask num', 'ask text', 'ask path', 'ask file', 'ask set', 'ask speed', 'checked', 'not checked'},
         {[1]='any val', [7]=123, [6]=-0.34, [8]=true},
