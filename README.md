@@ -1,0 +1,2 @@
+# CoreGG
+ Core script
