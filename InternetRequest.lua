@@ -1,4 +1,4 @@
-Source = gg.makeRequest("https://github.com/KilooEz/CoreGG/blame/main/CoreScript.lua")
+Source = gg.makeRequest("https://raw.githubusercontent.com/KilooEz/CoreGG/main/CoreScript.lua")
 if not Source then
 gg.alert("NOOB ENABLE INTERNET HAHAHAHAA")
 os.exit()
