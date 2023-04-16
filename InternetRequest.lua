@@ -1,7 +1,7 @@
-Source = gg.makeRequest("https://raw.githubusercontent.com/KilooEz/CoreGG/main/CoreScript.lua")
-if not Source then
-gg.alert("NOOB ENABLE INTERNET HAHAHAHAA")
-os.exit()
-else
+local Source = gg.makeRequest("https://raw.githubusercontent.com/KilooEz/CoreGG/main/CoreScript.lua").content
+
+if Source then
 pcall(load(Source))
+ else
+os.exit()
 end
